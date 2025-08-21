@@ -170,9 +170,42 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
 # =================================== #
-# Other Dev good to haves
+# Other Dev good to haves and the wisdown of the mighty AI
 # =================================== #
 appsettings.json
+# Vite specific cache
+.vite/
+
+# PostgreSQL specific (since you mentioned using it)
+/postgres-data/
+/pg_data/
+.pgpass
+
+# Additional environment patterns
+.env.local
+.env.*.local
+
+# TypeScript build info (you have *.tsbuildinfo but these are more specific)
+tsconfig.tsbuildinfo
+
+# Test coverage (if you use testing)
+coverage/
+__coverage__/
+
+# Additional IDE patterns
+.idea/
+*.iml
+
+# SSL certificates and keys (important for security)
+*.pem
+*.key
+*.crt
+*.cert
+
+# Backup files
+*.bak
+*.backup
+*.old
 
 # =================================== #
 # React
